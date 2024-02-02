@@ -13,6 +13,7 @@ body {
   font-family: "Epilogue", sans-serif;
   line-height: 1;
   font-weight: 500;
+  background-color: hsl(0, 0%, 98%);
 }
 
 /* Navigation */
@@ -47,6 +48,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  color: hsl(0, 0%, 41%);
   cursor: pointer;
 }
 
@@ -55,6 +57,7 @@ body {
   align-items: center;
   gap: 5rem;
   margin-left: 70rem;
+  cursor: pointer;
 }
 
 .btn {
@@ -68,6 +71,7 @@ body {
   padding: 1.2rem 2rem;
   border: 1.8px solid hsl(0, 0%, 8%);
   border-radius: 1.1rem;
+  cursor: pointer;
 }
 
 /* Hero Section */
@@ -93,7 +97,7 @@ body {
 }
 .hero-text {
   width: 90%;
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: hsl(0, 0%, 41%);
   line-height: 1.5;
   margin-bottom: 5rem;
@@ -104,10 +108,12 @@ body {
   padding: 1.4rem 2.1rem;
   border-radius: 1.2rem;
   font-size: 1.5rem;
-  border: none;
+  font-weight: 700;
+  border: 1.6px solid hsl(0, 0%, 98%);
   color: hsl(0, 0%, 98%);
   background-color: hsl(0, 0%, 8%);
   margin-bottom: 8.6rem;
+  cursor: pointer;
 }
 
 .client-logos {
@@ -124,4 +130,17 @@ body {
   width: 35%;
   height: 100%;
   justify-items: center;
+}
+
+/* Hover Effects */
+.btn:hover,
+.btn--website:hover,
+.btn-learn:hover,
+.dropdown:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+.btn-learn:hover {
+  border: 1.6px solid hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 98%);
 }
