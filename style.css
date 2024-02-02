@@ -52,6 +52,14 @@ body {
   cursor: pointer;
 }
 
+.dropdown--features {
+  position: relative;
+}
+
+.dropdown--Company {
+  position: relative;
+}
+
 .CTA-nav {
   display: flex;
   align-items: center;
@@ -143,4 +151,37 @@ body {
 .btn-learn:hover {
   border: 1.6px solid hsl(0, 0%, 8%);
   background-color: hsl(0, 0%, 98%);
+}
+
+/* Dropdown */
+.dropdown-feature,
+.dropdown-company {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(20, 20, 20, 0.15);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.dropdown-feature {
+  position: absolute;
+  top: 3rem;
+  right: 0;
+}
+.dropdown-company {
+  position: absolute;
+  top: 3rem;
+  right: -35%;
+}
+
+.drop-feat {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.drop-feat p {
+  font-size: 1.3rem;
 }
