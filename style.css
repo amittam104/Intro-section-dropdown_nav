@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  gap: 5rem;
+  margin-bottom: 6rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.website-nav {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.btn--website {
+  font-family: "Epilogue", sans-serif;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+}
+
+.CTA-nav {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin-left: 70rem;
+}
+
+.btn {
+  font-family: "Epilogue", sans-serif;
+  border: none;
+  background: none;
+}
+
+.btn--register {
+  padding: 1.2rem 2rem;
+  border: 1.8px solid hsl(0, 0%, 8%);
+  border-radius: 1.1rem;
+}
+
+/* Hero Section */
+.container {
+  max-width: 140rem;
+  height: 70vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 14rem;
+}
+
+.hero-text-box {
+  width: auto;
+}
+
+.hero-image-box {
+  background-image: url(images/image-hero-desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 31%;
+  height: 100%;
+  justify-items: center;
+}
