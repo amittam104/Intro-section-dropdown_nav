@@ -193,3 +193,156 @@ body {
 .hidden {
   display: none;
 }
+
+/* Responsive Design - Mobile 375px */
+
+@media (max-width: 375px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .logo {
+    align-self: flex-start;
+    margin-top: 2.6rem;
+    margin-left: 2.6rem;
+  }
+
+  .menu-open {
+    margin-top: -0.6rem;
+    margin-left: 20rem;
+  }
+
+  .menu-close {
+    margin-top: -0.6rem;
+    margin-left: 20rem;
+    z-index: 1000;
+  }
+
+  .website-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.6rem;
+    margin-bottom: 5rem;
+    padding-left: 2.6rem;
+  }
+
+  .CTA-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 2rem;
+    margin-left: 0;
+    cursor: pointer;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .btn--register {
+    width: 100%;
+  }
+
+  .navigations {
+    background-color: hsl(0, 0%, 98%);
+    height: 100rem;
+    width: 65%;
+    padding-top: 8rem;
+
+    margin-top: -11rem;
+    z-index: 10;
+    align-self: flex-end;
+    margin-right: -25rem;
+    margin-bottom: -92rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dropdown-feature,
+  .dropdown-company {
+    position: static;
+    grid-column: 1 / -1;
+  }
+
+  .dropdown--features,
+  .dropdown--Company {
+    justify-items: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .dropdown-feature,
+  .dropdown-company {
+    background-color: hsl(0, 0%, 98%);
+    padding: 2rem;
+    box-shadow: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+  }
+
+  .container {
+    max-width: 35rem;
+    height: 100%;
+    flex-direction: column-reverse;
+    gap: 6rem;
+  }
+
+  .hero-text-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-header {
+    font-size: 3.6rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .hero-image-box {
+    background-image: url(images/image-hero-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 108%;
+    height: 30rem;
+    justify-items: center;
+  }
+
+  .hero-text {
+    width: 95%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .btn-learn {
+    margin-bottom: 4.6rem;
+  }
+
+  .client-logos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 9rem;
+  }
+
+  .client-logo {
+    width: 21%;
+    /* height: auto; */
+  }
+
+  .hidden {
+    display: none;
+  }
+}
