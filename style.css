@@ -186,6 +186,10 @@ body {
   font-size: 1.3rem;
 }
 
+.close-arrow {
+  margin-left: -1.8rem;
+}
+
 .hidden {
   display: none;
 }
