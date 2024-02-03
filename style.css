@@ -30,10 +30,20 @@ body {
   align-items: center;
 }
 
+.navigations {
+  display: flex;
+  align-items: center;
+}
+
 .website-nav {
   display: flex;
   align-items: center;
   gap: 5rem;
+}
+
+.menu-open,
+.menu-close {
+  display: none;
 }
 
 .btn--website {
@@ -64,7 +74,7 @@ body {
   display: flex;
   align-items: center;
   gap: 5rem;
-  margin-left: 70rem;
+  margin-left: 73rem;
   cursor: pointer;
 }
 
@@ -100,6 +110,7 @@ body {
 }
 
 .hero-header {
+  width: 77%;
   font-size: 6.6rem;
   margin-bottom: 6rem;
 }
@@ -214,11 +225,13 @@ body {
   }
 
   .menu-open {
+    display: block;
     margin-top: -0.6rem;
     margin-left: 20rem;
   }
 
   .menu-close {
+    display: block;
     margin-top: -0.6rem;
     margin-left: 20rem;
     z-index: 1000;
@@ -304,6 +317,7 @@ body {
   }
 
   .hero-header {
+    width: 100%;
     font-size: 3.6rem;
     margin-bottom: 2.6rem;
   }
